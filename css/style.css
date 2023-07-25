@@ -1,0 +1,230 @@
+/* font start */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto&display=swap');
+
+/* font end */
+
+
+/* common start */
+
+    body{
+        font-family:'PT Sans', sans-serif;
+        font-size: 16px;
+        font-weight:400;
+        color:#898989;
+        padding-top: 109px;
+    }
+
+/* common end */
+
+/* header start */
+
+    header{
+        background-color: #fcdb00;
+        padding: 20px 0;
+
+    }
+    .c_nav{}
+    .logo_img{}
+    .menu{
+
+    }
+    .menu ul li a{
+        font-size: 22px;
+        font-weight:700;
+        color:#010101 !important;
+        padding: 0 100px !important;
+    }
+    .menu ul li a:last-child{
+        padding-right:0 !important;
+    }
+    .menu ul li a:hover{
+        color: white !important;
+    }
+
+
+/* header end */
+
+
+/* slider start */
+
+    .slider{
+        background-color: #fcdb00;
+        padding-bottom: 100px;
+    }
+
+    .c_indicator {
+   
+        bottom: -80px;
+    }
+
+    .c_indicator [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    .c_indicator .active {
+        opacity: 1;
+        background-color:#000
+    }
+
+    .slider_text{
+        margin-top: 50px;
+    }
+    .slider_h1{
+        font-size: 32px;
+        font-weight: 700;
+        color:#010101;
+    }
+    .slider_h2{
+        margin: 20px 0;
+        font-size: 20px;
+        font-weight: 400;
+        color: #313841;
+    }
+    .slider_p{
+        padding-bottom: 35px;
+        color: #555555;
+    }
+
+    .slider_icon{}
+    .slider_icon ul li{
+        margin-right: 30px !important;
+    }
+    .slider_icon ul li i{
+        color: #010101;
+        font-size: 42px;
+        transition: .3s;x
+    }
+    .slider_icon ul li i:hover{
+        transform: scale(.8);
+    }
+    .slider_image{}
+    .slider_image img{}
+
+
+
+/* slider end */
+
+/* feature start */
+
+    .feature{
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+    .feature_text{}
+    .feature_h1{
+        margin-bottom: 20px;
+        font-size: 32px;
+        font-weight: 700;        
+        color: #010101;
+    }
+    .feature_p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .f_item{
+        margin-top: 70px;
+    }
+    .feature_icon{
+
+    }
+    .feature_icon i{
+        font-size: 50px;
+        color: #010101;
+        margin-top: 2px;
+        transition: .3s;
+    }
+    .feature_icon i:hover{
+        transform: scale(.8);
+    }
+    .feature_text2{}
+    .feature_text2 h1{
+        font-size:22px;
+        font-weight: 400;
+        color: #010101;
+        line-height: 24px;
+    }
+    .feature_text2 p{
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+/* feature end */
+
+/* contact start */
+
+    .contact{
+        background-color: #010101;
+        padding: 100px 0;
+    }
+    .con_h1{
+        color: #fcdb00;
+    }
+    .s_p{
+        color:#898989 ;
+
+    }
+    .c_form{
+       margin-top: 50px;
+       margin-bottom: 70px;
+    }
+    .sub_t{
+        width: 100%;
+        height: 50px;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #898989;
+        padding: 20px 25px;
+    }
+    .btn_sub{
+        width: 100%;
+        height: 50px;
+        color: #010101;
+        background-color: #fcdb00;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .btn_sub:hover{
+        background-color: #ffff;
+        color: black;
+    }
+    .c_icon{}
+    .c_icon ul{}
+    .c_icon ul li{
+        margin-right: 35px !important;
+    }
+    .c_icon  li:last-child{
+        margin-right: 0 !important;
+    }
+    .c_icon ul li a{}
+    .c_icon ul li a i{
+        font-size: 42px;
+        color: #fcdb00;
+        transition: .3s;
+    }
+    .c_icon ul li a i:hover{
+        color: #ffff;
+    }
+/* contact end */
+
+footer{
+    padding-bottom: 120px;
+    background-color: #000;
+}
+.f_1{}
+.f_1 address{
+    color: white;
+}
+.f_2{}
+.f_2 p{}
+.f_2 p a{
+    text-decoration: none;
+    color: white;
+}
+
